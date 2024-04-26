@@ -1,0 +1,133 @@
+ 
+      body{
+      background: black;
+      margin: 0;
+}
+      
+nav {
+      background: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 6em;
+}
+.nav__container {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.nav__menu{
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+}
+nav img {
+      height: 6em;
+      width: 6em;
+      border-radius: 50%;
+}
+ul{
+      gap: 2em;
+}
+li{
+      display: none;
+      list-style: none;
+}
+a{
+      text-decoration: none;
+      color: rgb(163, 163, 163);     
+      font: Arial;
+      font-size: 1.2em;
+}
+
+.header__container{
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      margin-top: 8em;
+      overflow-x: hidden;
+}
+header img{
+      height: 20em;
+      width: 8em;
+      margin: 0;
+      padding: 0;
+}
+.img-left{
+      margin-left: -5em;
+}
+h1{
+      font-size: 1.4em;
+}
+.header-text{
+      color: white;
+      display: block;
+      margin-left: em;
+      text-align: center;
+      line-height: 2em;
+      button{
+            width: 8em;
+            border-radius: 1em;
+            height: 3em;
+            border: none;
+            background-color: orangered;
+            color: white;
+            margin-top: 3em;
+      }
+}
+nav button{
+      width: 8em;
+      border-radius: 1em;
+      height: 3em;
+      border: none;
+      background-color: orangered;
+      color: white;
+}
+
+button{
+      cursor: pointer;
+      transition: 1ms;
+      font-size: 0.8em;
+}
+
+button:hover{
+      background-color: White;
+      color: black;
+}
+
+@media screen and (min-width: 992px) {
+      li{
+            display: flex;
+      }
+      header img{
+            height: 50em;
+            width: 20em;
+            margin: 0;
+            padding: 0;
+      }
+      .img-right{
+            margin-left: 8em;
+      }
+      .img-left{
+            margin-top: -10em;
+            margin-left: -2em;
+      }
+      .header__container{
+            grid-template-columns: 30% 40% 30%;
+            margin-top: 12em;
+      }
+
+      h1{
+            font-size: 5em;
+            line-height: 1em;
+      }
+      p{
+            font-size: 1.5em;
+      }
+      .header-text button{
+            width: 12em;
+            border-radius: 1.5em;
+            height: 5em;
+      }
+}

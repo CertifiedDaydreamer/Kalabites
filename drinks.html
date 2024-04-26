@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+.container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.5em;
+    }
+    
+    .menu {
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+    }
+    
+    .menu-group-heading {
+      margin: 0;
+      padding-bottom: 1em;
+      border-bottom: 2px solid #ccc;
+    }
+    
+    .menu-group {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5em;
+      padding: 1.5em 0;
+    }
+    
+    .menu-item {
+      display: flex;
+    }
+    
+    .menu-item-image {
+      width: 80px;
+      height: 80px;
+      flex-shrink: 0;
+      object-fit: cover;
+      margin-right: 1.5em;
+    }
+    
+    .menu-item-text {
+      flex-grow: 1;
+    }
+    
+    .menu-item-heading {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    
+    .menu-item-name {
+      margin-right: 1.5em;
+    }
+    
+    .menu-item-description {
+      line-height: 1.6;
+    }
+    
+    @media screen and (min-width: 992px) {
+      .menu {
+        font-size: 16px;
+      }
+    
+      .menu-group {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 8em;
+      }
+    
+      .menu-item-image {
+        width: 125px;
+        height: 125px;
+      }
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="menu">
+      <h2 class="menu-group-heading">
+        Drinks
+      </h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="/images/four-cousins.jpg" alt="four cousins">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Four Cousins Wine
+            </span>
+              <span class="menu-item-price">    NGN15,000</span>
+            </h3>
+            <p class="menu-item-description">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="/images/coke.jpg" alt="coke">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Coke
+            </span>
+              <span class="menu-item-price">NGN1,000</span>
+            </h3>
+            <p class="menu-item-description">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>       
+        <div class="menu-item">
+          <img class="menu-item-image" src="/images/jameson-green.jpg" alt="jameson green">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Jameson Green</span>
+              <span class="menu-item-price">NGN36,000</span>
+            </h3>
+            <p class="menu-item-description">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="/images/chiactive.jpg" alt="chi active">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Chi Active</span>
+              <span class="menu-item-price">NGN3,000</span>
+            </h3>
+            <p class="menu-item-description">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/100949_ciroc_apple_700.jpg" alt="ciroc">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Ciroc</span>
+                  <span class="menu-item-price">NGN52,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/chiexotic.jpg" alt="Chi exotic">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Chi Exotic</span>
+                  <span class="menu-item-price">NGN3,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+                  <div class="menu-item">
+                    <img class="menu-item-image" src="/images/cranberry.jpg" alt="cranberry juice">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Cranberry</span>
+                        <span class="menu-item-price">NGN6,000</span>
+                      </h3>
+                      <p class="menu-item-description">
+                        Lorem ipsum dolor sit amet.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <img class="menu-item-image" src="/images/aquafina.jpg" alt="water">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Water</span>
+                        <span class="menu-item-price">NGN1,500</span>
+                      </h3>
+                      <p class="menu-item-description">
+                        Lorem ipsum dolor sit amet.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+    </div>
+  </div>
+</body>
+</html>

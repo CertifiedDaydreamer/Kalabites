@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KalaBites Menu</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+      .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+.menu {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-description {
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+  }
+
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-item-image {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="menu">
+      <h2 class="menu-group-heading">
+            Main
+          </h2>
+          <div class="menu-group">
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/Yam-porridge.jpg" alt="yam porridge">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Yam Porridge
+                </span>
+                  <span class="menu-item-price">    NGN5,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laboriosam ullam ut explicabo ab saepe doloremque in nobis! Enim, ex.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/Stir-Fry-Pasta.jpg" alt="Stri Fry Pasta">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Stri Fry Pasta
+                </span>
+                  <span class="menu-item-price">NGN9,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laboriosam ullam ut explicabo ab saepe doloremque in nobis! Enim, ex.
+                </p>
+              </div>
+            </div>       
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/seafood-noodles.jpg" alt="Seafood Noodles">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Seafood Noodles</span>
+                  <span class="menu-item-price">NGN16,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laboriosam ullam ut explicabo ab saepe doloremque in nobis! Enim, ex.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/seafood-pasta.jpg" alt="Seafood Pasta">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Seafood Pasta
+                  </span>
+                  <span class="menu-item-price">NGN13,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laboriosam ullam ut explicabo ab saepe doloremque in nobis! Enim, ex.
+                </p>
+              </div>
+            </div>
+                <div class="menu-item">
+                  <img class="menu-item-image" src="/images/poundo.jpg" alt="Poundo">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Poundo
+                      </span>
+                      <span class="menu-item-price">NGN2,000</span>
+                    </h3>
+                    <p class="menu-item-description">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quos doloribus ut reprehenderit ullam eius nihil? Laudantium voluptatum temporibus totam!
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img class="menu-item-image" src="/images/Amala-meal.webp" alt="amala">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Amala</span>
+                      <span class="menu-item-price">NGN3,000</span>
+                    </h3>
+                    <p class="menu-item-description">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quos doloribus ut reprehenderit ullam eius nihil? Laudantium voluptatum temporibus totam!
+                    </p>
+                  </div>
+                </div>
+                      <div class="menu-item">
+                        <img class="menu-item-image" src="/images/fried-rice-2.jpg" alt="Special Fried Rice">
+                        <div class="menu-item-text">
+                          <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Special Fried Rice</span>
+                            <span class="menu-item-price">NGN16,000</span>
+                          </h3>
+                          <p class="menu-item-description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, beatae odio. Velit eveniet mollitia eius. Accusamus odio explicabo id rem!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="menu-item">
+                        <img class="menu-item-image" src="/images/basmati-rice.jpg" alt="Basmati Fried Rice">
+                        <div class="menu-item-text">
+                          <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Basmati Fried Rice</span>
+                            <span class="menu-item-price">NGN21,500</span>
+                          </h3>
+                          <p class="menu-item-description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, beatae odio. Velit eveniet mollitia eius. Accusamus odio explicabo id rem!
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+
+          <h2 class="menu-group-heading">
+            Drinks
+          </h2>
+          <div class="menu-group">
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/four-cousins.jpg" alt="four cousins">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Four Cousins Wine
+                </span>
+                  <span class="menu-item-price">    NGN15,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/coke.jpg" alt="coke">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Coke
+                </span>
+                  <span class="menu-item-price">NGN1,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>       
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/jameson-green.jpg" alt="jameson green">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Jameson Green</span>
+                  <span class="menu-item-price">NGN36,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/chiactive.jpg" alt="chi active">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Chi Active</span>
+                  <span class="menu-item-price">NGN3,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+                <div class="menu-item">
+                  <img class="menu-item-image" src="/images/100949_ciroc_apple_700.jpg" alt="ciroc">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Ciroc</span>
+                      <span class="menu-item-price">NGN52,000</span>
+                    </h3>
+                    <p class="menu-item-description">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img class="menu-item-image" src="/images/chiexotic.jpg" alt="Chi exotic">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Chi Exotic</span>
+                      <span class="menu-item-price">NGN3,000</span>
+                    </h3>
+                    <p class="menu-item-description">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                </div>
+                      <div class="menu-item">
+                        <img class="menu-item-image" src="/images/cranberry.jpg" alt="cranberry juice">
+                        <div class="menu-item-text">
+                          <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Cranberry</span>
+                            <span class="menu-item-price">NGN6,000</span>
+                          </h3>
+                          <p class="menu-item-description">
+                              Lorem ipsum dolor sit amet.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="menu-item">
+                        <img class="menu-item-image" src="/images/aquafina.jpg" alt="water">
+                        <div class="menu-item-text">
+                          <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Water</span>
+                            <span class="menu-item-price">NGN1,500</span>
+                          </h3>
+                          <p class="menu-item-description">
+                              Lorem ipsum dolor sit amet.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+
+          <h2 class="menu-group-heading">
+            Soup
+          </h2>
+          <div class="menu-group">
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/okra-soup.webp" alt="Regular Okro">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name"> Regular Okro 
+                </span>
+                  <span class="menu-item-price">    NGN5,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur qui fugiat omnis veniam voluptatibus, tempore voluptate quis dolor esse
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/Ewedu & Gbegiri.jpg" alt="Ewedu & Gbegiri With Stew">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Ewedu & Gbegiri With Stew
+                </span>
+                  <span class="menu-item-price">NGN6,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur qui fugiat omnis veniam voluptatibus, tempore voluptate quis dolor esse
+                </p>
+              </div>
+            </div>       
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/egusi-soup.jpg" alt="Regular Egusi">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Regular Egusi</span>
+                  <span class="menu-item-price">NGN6,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur qui fugiat omnis veniam voluptatibus, tempore voluptate quis dolor esse
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/chicken-peppersoup.jpeg" alt="Chicken Peppersoup">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Chicken Peppersoup</span>
+                  <span class="menu-item-price">NGN13,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur qui fugiat omnis veniam voluptatibus, tempore voluptate quis dolor esse
+                </p>
+              </div>
+            </div>
+                <div class="menu-item">
+                  <img class="menu-item-image" src="/images/turkey-peppersoup.jpg" alt="Turkey Peppersoup">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Turkey Peppersoup</span>
+                      <span class="menu-item-price">NGN52,000</span>
+                    </h3>
+                    <p class="menu-item-description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur qui fugiat omnis veniam voluptatibus, tempore voluptate quis dolor esse
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img class="menu-item-image" src="/images/seafood-egusi.jpg" alt="Seafood Egusi with Oil">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Seafood Egusi with Oil</span>
+                      <span class="menu-item-price">NGN15,000</span>
+                    </h3>
+                    <p class="menu-item-description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur qui fugiat omnis veniam voluptatibus, tempore voluptate quis dolor esse
+                    </p>
+                  </div>
+                </div>
+                      <div class="menu-item">
+                        <img class="menu-item-image" src="/images/edikang-ikong-soup.jpg" alt="Edikang Ikong Soup">
+                        <div class="menu-item-text">
+                          <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Edikang Ikong Soup</span>
+                            <span class="menu-item-price">NGN6,000</span>
+                          </h3>
+                          <p class="menu-item-description">
+                            Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+                            congue eu mauris nec, pretium tincidunt nulla.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="menu-item">
+                        <img class="menu-item-image" src="/images/oha-soup.jpg" alt="Oha Soup">
+                        <div class="menu-item-text">
+                          <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Oha Soup</span>
+                            <span class="menu-item-price">NGN1,500</span>
+                          </h3>
+                          <p class="menu-item-description">
+                            Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+                            congue eu mauris nec, pretium tincidunt nulla.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+          <h2 class="menu-group-heading">
+            Grills
+          </h2>
+          <div class="menu-group">
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/wings.jpg" alt="wings">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">12 Chicken wings </span>
+                  <span class="menu-item-price">    NGN17,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laboriosam ullam ut explicabo ab saepe doloremque in nobis! Enim, ex.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/wings.jpg" alt="wings">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">24 Chicken wings</span>
+                  <span class="menu-item-price">NGN33,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laboriosam ullam ut explicabo ab saepe doloremque in nobis! Enim, ex.
+                </p>
+              </div>
+            </div>       
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/wings.jpg" alt="wings">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">48 Chicken wings</span>
+                  <span class="menu-item-price">NGN62,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laboriosam ullam ut explicabo ab saepe doloremque in nobis! Enim, ex.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/wings.jpg" alt="wings">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">8 Chicken wings</span>
+                  <span class="menu-item-price">NGN15,000</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laboriosam ullam ut explicabo ab saepe doloremque in nobis! Enim, ex.
+                </p>
+              </div>
+            </div>
+                <div class="menu-item">
+                  <img class="menu-item-image" src="/images/wings.jpg" alt="wings">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">48 Chicken wings</span>
+                      <span class="menu-item-price">NGN62,000</span>
+                    </h3>
+                    <p class="menu-item-description">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quos doloribus ut reprehenderit ullam eius nihil? Laudantium voluptatum temporibus totam!
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img class="menu-item-image" src="/images/wings.jpg" alt="wings">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">8 Chicken wings</span>
+                      <span class="menu-item-price">NGN15,000</span>
+                    </h3>
+                    <p class="menu-item-description">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quos doloribus ut reprehenderit ullam eius nihil? Laudantium voluptatum temporibus totam!
+                    </p>
+                  </div>
+                </div>
+                      <div class="menu-item">
+                        <img class="menu-item-image" src="/images/wings.jpg" alt="wings">
+                        <div class="menu-item-text">
+                          <h3 class="menu-item-heading">
+                            <span class="menu-item-name">48 Chicken wings</span>
+                            <span class="menu-item-price">NGN62,000</span>
+                          </h3>
+                          <p class="menu-item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corrupti inventore mollitia aut rem. Nulla veritatis dolorem sapiente eaque unde?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="menu-item">
+                        <img class="menu-item-image" src="/images/wings.jpg" alt="wings">
+                        <div class="menu-item-text">
+                          <h3 class="menu-item-heading">
+                            <span class="menu-item-name">8 Chicken wings</span>
+                            <span class="menu-item-price">NGN15,000</span>
+                          </h3>
+                          <p class="menu-item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corrupti inventore mollitia aut rem. Nulla veritatis dolorem sapiente eaque unde?
+                          </p>
+                        </div>
+                      </div>
+                </div>
+    </div>
+  </div>
+</body>
+
+</html>
